@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background: black ;
+    user-select: none;
+}
+a{
+    color: black;
+    align-self: flex-start;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: absolute;
+    top: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vph;
+    justify-content: center;
+}
+
+.heading{
+    color: white;
+    font-size: 2rem;
+    font-family: Georgia, serif;
+    margin-top: 13rem;
+}
+
+footer{
+    height: 25px;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    margin-top: 18rem;
+}
+
+.subHeading{
+    color: white;
+    margin-top: -1%;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.inputBlock {
+    background: black;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    gap: 15px;
+    max-width: 420px;
+    width: 100%;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    background: #444;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s ease;
+}
+
+input[type="text"]:hover {
+    outline: none;
+    box-shadow: 0 0 8px 3px #6ca0ff;
+}
+button {
+    background: #444;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s ease;
+}
+button:hover {
+    box-shadow: 0 0 8px 3px #ff7f50; 
+    color: white;
+}
+
+
+.printBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: auto;
+    color: #fff; /* Text color for the printed items */
+}
+
+.printBlock p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #555; /* Background for each item */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.printBlock button {
+    background: #28a745; /* Green background for the done button */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s ease;
+}
+
+.printBlock button:hover {
+    background-color: #218838; 
+    box-shadow: 0 0 5px 3px white; 
+}
