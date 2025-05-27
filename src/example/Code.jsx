@@ -35,6 +35,7 @@ export default function Code(){
       </a>
       <p className='heading'>WORK REMINDER APP</p>
       <p className='subHeading'>manage your day to day work effectively and efficiently</p>
+      <footer>@GMK</footer>
       <div className='inputBlock'>
         <input type="text" placeholder="Enter Your WORK" onKeyDown={handleKeyDown} value={value} onChange={updateing} />
         <button onClick={workUpdateing} type='submit'>submit</button>
@@ -44,9 +45,8 @@ export default function Code(){
                 <p key={index}>{item} <button onClick={()=>{deleteValue(index)}}>done</button></p>
             ))}
       </div>
-      
     </div>
-    <footer>@GMK</footer>
+    
     </div>
   )
 }

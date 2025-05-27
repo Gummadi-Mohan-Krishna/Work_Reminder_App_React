@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
@@ -30,9 +31,10 @@ a{
 footer{
     height: 25px;
     color: white;
+    background-color: black;
     margin-top: auto;
     text-align: center;
-    margin-top: 18rem;
+    font-size: 0.7rem;
 }
 
 .subHeading{
@@ -92,7 +94,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 17px;
     width: auto;
     color: #fff; /* Text color for the printed items */
 }
