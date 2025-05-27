@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Work_Reminder_App_React/static/css/main.ff529dfd.css",
+    "main.js": "/Work_Reminder_App_React/static/js/main.b429589d.js",
+    "static/js/453.846dc60d.chunk.js": "/Work_Reminder_App_React/static/js/453.846dc60d.chunk.js",
+    "index.html": "/Work_Reminder_App_React/index.html",
+    "main.ff529dfd.css.map": "/Work_Reminder_App_React/static/css/main.ff529dfd.css.map",
+    "main.b429589d.js.map": "/Work_Reminder_App_React/static/js/main.b429589d.js.map",
+    "453.846dc60d.chunk.js.map": "/Work_Reminder_App_React/static/js/453.846dc60d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff529dfd.css",
+    "static/js/main.b429589d.js"
+  ]
+}
