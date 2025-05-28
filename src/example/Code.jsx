@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Code(){
   const [work,setWork]=useState([])
-  const [value,setValue]=useState('')
+  const [value,setValue]=useState('') 
   const updateing=(e)=>{
     setValue(e.target.value)
   }
