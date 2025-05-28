@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Work_Reminder_App_React/static/css/main.d577dbcc.css",
+    "main.css": "/Work_Reminder_App_React/static/css/main.7ef0639a.css",
     "main.js": "/Work_Reminder_App_React/static/js/main.ccc833f1.js",
     "static/js/453.faaad4c4.chunk.js": "/Work_Reminder_App_React/static/js/453.faaad4c4.chunk.js",
     "index.html": "/Work_Reminder_App_React/index.html",
-    "main.d577dbcc.css.map": "/Work_Reminder_App_React/static/css/main.d577dbcc.css.map",
+    "main.7ef0639a.css.map": "/Work_Reminder_App_React/static/css/main.7ef0639a.css.map",
     "main.ccc833f1.js.map": "/Work_Reminder_App_React/static/js/main.ccc833f1.js.map",
     "453.faaad4c4.chunk.js.map": "/Work_Reminder_App_React/static/js/453.faaad4c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d577dbcc.css",
+    "static/css/main.7ef0639a.css",
     "static/js/main.ccc833f1.js"
   ]
 }
