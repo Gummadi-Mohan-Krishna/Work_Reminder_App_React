@@ -7,7 +7,7 @@ export default function Code(){
   const updateing=(e)=>{
     setValue(e.target.value)
   }
-  const workUpdateing=()=>{
+    const workUpdateing=()=>{
       if(value.trim() !== ''){
         setWork([...work,value])
         setValue('')
