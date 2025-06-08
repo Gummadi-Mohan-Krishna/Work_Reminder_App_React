@@ -6,7 +6,7 @@ export default function Code(){
   const [value,setValue]=useState('') 
   const updateing=(e)=>{
     setValue(e.target.value)
-  }
+  } 
     const workUpdateing=()=>{ 
       if(value.trim() !== ''){
         setWork([...work,value])
